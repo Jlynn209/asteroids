@@ -1,4 +1,4 @@
-# Asteroids
+# RockBlaster
 
 A classic Asteroids arcade game implementation.
 
@@ -13,7 +13,24 @@ This project is a recreation of the classic Asteroids arcade game, featuring spa
 
 ## Installation
 
-1. Clone or download this repository
+### Getting the Code
+
+You can get this project in two ways:
+
+- **Clone the repository** (requires Git):
+  ```powershell
+  git clone https://github.com/Jlynn209/RockBlaster.git
+  cd RockBlaster
+  ```
+
+- **Download from Releases** (no Git required):
+  1. Go to the [Releases](https://github.com/Jlynn209/RockBlaster/releases) page
+  2. Download the latest `.zip` file
+  3. Extract the zip file to your desired location
+
+### Install Dependencies
+
+1. Navigate to the project directory
 2. Install dependencies:
     ```powershell
     # Create a virtual environment
