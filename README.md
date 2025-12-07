@@ -1,4 +1,4 @@
-# Asteroids
+# RockBlaster
 
 A classic Asteroids arcade game implementation.
 
