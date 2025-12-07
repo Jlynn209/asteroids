@@ -42,10 +42,9 @@ class Player(CircleShape):
         self.cooldown_timer -= delta_time
 
         if keys[pygame.K_SPACE]:
-            if self.cooldown_timer > 0:
-                return
-            self.cooldown_timer = PLAYER_SHOOT_COOLDOWN_SECONDS
-            self.shoot()
+            if self.cooldown_timer <= 0:
+                self.cooldown_timer = PLAYER_SHOOT_COOLDOWN_SECONDS
+                self.shoot()
         if keys[pygame.K_w]:
             self.move(delta_time)
         if keys[pygame.K_s]:
