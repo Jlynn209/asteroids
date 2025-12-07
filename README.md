@@ -27,4 +27,4 @@ Execute the following command from the project directory:
 python main.py
 ```
 
-Use arrow keys to move, spacebar to shoot, and destroy all asteroids to advance levels.
+Use w,a,d,s to move, spacebar to shoot, and destroy all asteroids to advance levels.
